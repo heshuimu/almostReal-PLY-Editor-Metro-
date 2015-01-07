@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="almostRealPLYEditor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:almostRealPLYEditor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Icon="Refresh" Label="重新载入"/>
+            <AppBarButton Icon="Save" Label="保存"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="TextBox_NoteCount_Red" HorizontalAlignment="Left" Margin="200,0,0,0" TextWrapping="Wrap" Text="573" VerticalAlignment="Bottom" Background="Transparent" Foreground="#FFFF8D9D" SelectionHighlightColor="#004617B4" BorderBrush="Transparent" IsReadOnly="True" PlaceholderText="" FontFamily="ITC Avant Garde Gothic Book" TextAlignment="Center" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Width="250" FontSize="84" Height="91" BorderThickness="0" Opacity="0.4"/>
+        <TextBox x:Name="TextBox_NoteCount_Blue" HorizontalAlignment="Left" Margin="600,0,0,0" TextWrapping="Wrap" Text="573" VerticalAlignment="Bottom" Background="Transparent" Foreground="#FFA2E7FB" SelectionHighlightColor="#004617B4" BorderBrush="Transparent" IsReadOnly="True" PlaceholderText="" FontFamily="ITC Avant Garde Gothic Book" TextAlignment="Center" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Width="250" FontSize="84" Height="91" BorderThickness="0" Opacity="0.4"/>
+        <ScrollViewer x:Name="FumenView_Red" HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top" Width="350" Height="768" BorderThickness="2,0" BorderBrush="White" VerticalScrollMode="Auto" ZoomMode="Disabled" HorizontalScrollMode="Disabled" IsDoubleTapEnabled="False" IsHoldingEnabled="False"/>
+        <ScrollViewer x:Name="FumenView_Blue" HorizontalAlignment="Left" Margin="550,0,0,0" VerticalAlignment="Top" Width="350" Height="768" BorderBrush="White" BorderThickness="2,0"/>
+        <Button x:Name="ActionButton_Refresh" Content="刷新" HorizontalAlignment="Left" Margin="30,630,0,30" VerticalAlignment="Bottom" Height="90" Width="90" Click="Button_Click"/>
+        <ToggleButton x:Name="ToggleButton_Add" Content="添加" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Width="90" Height="90" IsChecked="True"/>
+        <ToggleButton x:Name="ToggleButton_Select" Content="选择" HorizontalAlignment="Left" Margin="30,150,0,0" VerticalAlignment="Top" Width="90" Height="90"/>
+        <Button x:Name="ActionButton_Copy" Content="复制" HorizontalAlignment="Left" Margin="30,270,0,0" VerticalAlignment="Top" Width="90" Height="40" IsEnabled="False"/>
+        <Button x:Name="ActionButton_Paste" Content="粘贴" HorizontalAlignment="Left" Margin="30,330,0,0" VerticalAlignment="Top" Width="90" Height="40" IsEnabled="False"/>
+        <Button x:Name="ActionButton_Delete" Content="删除" HorizontalAlignment="Left" Margin="30,390,0,0" VerticalAlignment="Top" Width="90" Height="40" IsEnabled="False"/>
+        <Button x:Name="ActionButton_RemoveGold" Content="去金边" HorizontalAlignment="Left" Margin="30,450,0,0" VerticalAlignment="Top" Width="90" Height="40" IsEnabled="False"/>
+        <Button x:Name="ActionButton_RemoveChain" Content="去锁链" HorizontalAlignment="Left" Margin="30,510,0,0" VerticalAlignment="Top" Width="90" Height="40" IsEnabled="False"/>
+    </Grid>
+</Page>

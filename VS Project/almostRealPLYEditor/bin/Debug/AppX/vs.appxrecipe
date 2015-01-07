@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CITRUS</Machine>
+    <WindowsUser>浩男</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>961b5f8b-306e-4b19-8dca-1a0d4f9bb127</PackageIdentityName>
+    <RegisteredManifestChecksum>3F35A235285356850956C1C134C3E044EBCFB94A66E9CF802BF3CE47DC317BF7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>961b5f8b-306e-4b19-8dca-1a0d4f9bb127_1.0.0.0_neutral__ace8f7e69ptam</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>961b5f8b-306e-4b19-8dca-1a0d4f9bb127_ace8f7e69ptam!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>961b5f8b-306e-4b19-8dca-1a0d4f9bb127</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=浩男</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-07T17:20:50.078</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\bin\Debug\almostRealPLYEditor.exe">
+      <PackagePath>almostRealPLYEditor.exe</PackagePath>
+      <Modified>2015-01-07T17:22:02.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-25T06:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-25T06:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-25T06:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-25T06:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-07T17:20:49.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-01-07T17:20:49.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\浩男\documents\visual studio 2013\Projects\almostRealPLYEditor\almostRealPLYEditor\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-07T17:20:49.929</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
